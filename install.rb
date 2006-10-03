@@ -22,4 +22,5 @@ end
 
 FileUtils.chmod(0755, File.join(plugin_dir, 'play'))
 
-File.open(File.join(plugin_dir, 'README')) { |l| puts l }
+# display the README
+puts File.read(File.join(plugin_dir, 'README'))
