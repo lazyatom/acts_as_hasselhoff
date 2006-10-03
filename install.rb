@@ -15,3 +15,7 @@ FileUtils.mv(Dir.glob(image_dir + '/*'), backup_dir)
 Dir[backup_dir + '/**/*'].each do |image_file_name|
   FileUtils.cp(hoff_image, image_file_name.gsub(backup_dir, image_dir))
 end
+
+puts 'dir: '
+puts directory
+#FileUtils.chmod(0755, File.join(directory, 'play'))
