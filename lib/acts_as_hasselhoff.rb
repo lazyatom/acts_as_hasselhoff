@@ -12,6 +12,7 @@ module ActsAsHasselhoff # modifies ActiveRecord::Base
     def acts_as_hasselhoff
       include ActsAsHasselhoff::Behaviour
       before_save :slow_motion_running
+      nil
     end
   end
     
