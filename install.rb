@@ -16,6 +16,4 @@ Dir[backup_dir + '/**/*'].each do |image_file_name|
   FileUtils.cp(hoff_image, image_file_name.gsub(backup_dir, image_dir))
 end
 
-puts 'dir: '
-puts directory
-#FileUtils.chmod(0755, File.join(directory, 'play'))
+FileUtils.chmod(0755, File.join(File.dirname(__FILE__), 'play'))
