@@ -20,7 +20,7 @@ module ActsAsHasselhoff # modifies ActiveRecord::Base
   module Behaviour
     def slow_motion_running
       this_dir = "#{RAILS_ROOT}/vendor/plugins/acts_as_hasselhoff"
-      t = Thread.new { `#{this_dir}/play #{this_dir}/sounds/baywatch_trimmed.m4a` }
+      t = Thread.new { `#{this_dir}/play #{this_dir}/sounds/theme.m4a` }
       t.run
       puts_slowly "Saving ... in ... slow ... motion ...", 1.0
       t.join
