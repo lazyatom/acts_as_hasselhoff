@@ -34,12 +34,13 @@ end
 
 Now go save a `Post`.
 
-## Demo
-Coming soon...
+## Video Demo
+
+[![See It In Action!](http://img.youtube.com/vi/3CqkboyShKY/0.jpg)](https://www.youtube.com/watch?v=3CqkboyShKY&vq=hd1080)
 
 ## The Truth
-The hoff idea was stolen from [James Adam](http://lazyatom.com/)'s original [acts_as_hasselhoff plugin](https://github.com/lazyatom/acts_as_hasselhoff). I felt the burning need to make it work with Rails 4 and above so here it is.
 
+The hoff idea was stolen from [James Adam](http://lazyatom.com/)'s original [acts_as_hasselhoff plugin](https://github.com/lazyatom/acts_as_hasselhoff). I felt the burning need to make it work with Rails 4 and above so here it is.
 
 ## Contributing
 

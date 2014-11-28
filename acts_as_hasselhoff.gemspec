@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors     = ['James Adam', 'Mario Zigliotto']
   spec.email       = ['mariozig@gmail.com']
   spec.homepage    = 'https://github.com/mariozig/acts_as_hasselhoff/'
-  spec.summary     = 'You know it. You love it. Still on Github. As dumb as ever.'
+  spec.summary     = 'You know it. You love it. Still on GitHub. As dumb as ever.'
   spec.description = 'Injects Hoff-based magic into your Rails application.'
   spec.license     = 'MIT'
 
