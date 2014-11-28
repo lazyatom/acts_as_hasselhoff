@@ -1,6 +1,9 @@
 # Bayvid Hasselhoff
 
-Your application is now powered by HOFF 20.14!!!
+![The Hoff](http://i.imgur.com/mwWGDL3.jpg)
+
+Your application is now powered by HOFF!!!
+
 CAUTION: with great chest hair comes great responsibility.
 
 ## Installation
@@ -28,6 +31,8 @@ class Post < ActiveRecord::Base
   acts_as_bayvid_hasselhoff
 end
 ```
+
+Now go save a `Post`.
 
 ## Demo
 Coming soon...
