@@ -1,4 +1,4 @@
-# Bayvid Hasselhoff
+# Acts As Hasselhoff
 
 ![The Hoff](http://i.imgur.com/mwWGDL3.jpg)
 
@@ -11,7 +11,7 @@ CAUTION: with great chest hair comes great responsibility.
 Add this line to your Rails application's Gemfile:
 
 ```ruby
-gem 'bayvid_hasselhoff'
+gem 'acts_as_hasselhoff'
 ```
 
 And then execute:
@@ -22,13 +22,13 @@ And then execute:
 
 Once the gem is part of your Rails app it's pretty simple to use.
 
-Just find a model you would like to have Bayvid Hasselhoff save and add:
+Just find a model you would like to have act as Hasselhoff and add:
 
 ```ruby
 # app/models/post.rb
 
 class Post < ActiveRecord::Base
-  acts_as_bayvid_hasselhoff
+  acts_as_hasselhoff
 end
 ```
 
@@ -43,7 +43,7 @@ The hoff idea was stolen from [James Adam](http://lazyatom.com/)'s original [act
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/bayvid_hasselhoff/fork )
+1. Fork it ( https://github.com/mariozig/acts_as_hasselhoff/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

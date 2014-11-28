@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :bayvid_hasselhoff do
+# task :acts_as_hasselhoff do
 #   # Task goes here
 # end

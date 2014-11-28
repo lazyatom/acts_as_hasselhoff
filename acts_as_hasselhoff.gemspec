@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'bayvid_hasselhoff/version'
+require 'acts_as_hasselhoff/version'
 
 Gem::Specification.new do |spec|
-  spec.name        = 'bayvid_hasselhoff'
-  spec.version     = BayvidHasselhoff::VERSION
+  spec.name        = 'acts_as_hasselhoff'
+  spec.version     = ActsAsHasselhoff::VERSION
   spec.authors     = ['James Adam', 'Mario Zigliotto']
   spec.email       = ['mariozig@gmail.com']
   spec.homepage    = 'https://github.com/mariozig/acts_as_hasselhoff/'

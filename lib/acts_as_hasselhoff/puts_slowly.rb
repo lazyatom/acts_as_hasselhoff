@@ -1,4 +1,4 @@
-module BayvidHasselhoff
+module ActsAsHasselhoff
   class PutsSlowly
     attr_reader :strang
 
