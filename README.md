@@ -40,7 +40,7 @@ Now go save a `Post`.
 
 ## The Truth
 
-The hoff idea was stolen from [James Adam](http://lazyatom.com/)'s original [acts_as_hasselhoff plugin](https://github.com/lazyatom/acts_as_hasselhoff). I felt the burning need to make it work with Rails 4 and above, so, here it is.
+The hoff idea was stolen from [James Adam](http://lazyatom.com/)'s original [acts_as_hasselhoff plugin](https://github.com/lazyatom/acts_as_hasselhoff). I felt the burning need to make it work with Rails 4 and above, so, here it is. James fully approves of the continuation of this lunacy.
 
 ## Contributing
 
